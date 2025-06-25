@@ -1,5 +1,5 @@
 const { cmd, commands } = require('../command');
-const config = require('../setting');
+const config = require('../settings');
 const {readEnv} = require('../lib/database');
 const os = require('os');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson, runtime, sleep } = require('../lib/functions');
