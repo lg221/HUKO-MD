@@ -1,12 +1,12 @@
 {
-  "name": "SUPUN-MD",
+  "name": "HUKO-MD",
   "version": "2.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SUPUN-MD",
-    "stop": "pm2 stop SUPUN-MD",
-    "restart": "pm2 restart SUPUN-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name HUKO-MD",
+    "stop": "pm2 stop HUKO-MD",
+    "restart": "pm2 restart HUKO-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-mod",
