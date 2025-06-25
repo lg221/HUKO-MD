@@ -104,8 +104,8 @@ async function connectToWA() {;
         }).child({
             level: "fatal"
         }),
-        printQRInTerminal: false,
-        generateHighQualityLinkPreview: false,
+        printQRInTerminal: true,
+        generateHighQualityLinkPreview: true,
         auth: state,
         defaultQueryTimeoutMs: undefined,
         msgRetryCounterCache
