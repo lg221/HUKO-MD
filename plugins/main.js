@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../command');
+const { cmd, commands } = require('../lib/command');
 const config = require('../settings');
 const {readEnv} = require('../lib/database');
 const os = require('os');
