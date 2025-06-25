@@ -1,0 +1,21 @@
+{
+  "name": "SUPUN-MD",
+  "description": "SUPUN-MD Multidevice Whatsapp Bot",
+  "logo": "https://i.ibb.co/bHXBV08/9242c844b83f7bf9.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
