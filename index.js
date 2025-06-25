@@ -70,7 +70,7 @@ const ownerNumber =  ['94718461889']
 //================== SESSION ==================
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
     if (!config.SESSION_ID) return console.log("Please Add SESSION_ID ➾")
-      const sessdata = config.SESSION_ID.split("SUPUN-MD=")[1];
+      const sessdata = config.SESSION_ID.split("HUKO-MD=")[1];
       const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
       filer.download((err, data) => {
         if (err) throw err
