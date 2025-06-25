@@ -9,7 +9,7 @@
     "restart": "pm2 restart HUKO-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:baileys-mod",
+    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
     "@adiwajshing/keyed-db": "^0.2.4",
     "pino": "^9.6.0",
     "pm2": "^5.4.3",
